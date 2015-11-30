@@ -2,24 +2,24 @@
 <root>
     <windows>
         <driver id="internetexplorer">
-            <version id="2.45.0">
+            <version id="2.48.0">
                 <bitrate sixtyfourbit="true">
-                    <filelocation>http://selenium-release.storage.googleapis.com/2.45/IEDriverServer_x64_2.45.0.zip</filelocation>
-                    <hash>b3cdacc846d7b9c3f8fb8b70af0a9cfc5839bd83</hash>
+                    <filelocation>http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_x64_2.48.0.zip</filelocation>
+                    <hash>abd88efa0f33d238cc786363d1c7c2108633340b</hash>
                     <hashtype>sha1</hashtype>
                 </bitrate>
                 <bitrate thirtytwobit="true">
-                    <filelocation>http://selenium-release.storage.googleapis.com/2.45/IEDriverServer_Win32_2.45.0.zip</filelocation>
-                    <hash>cc822d30efe3119b76af9265c47d42fca208f85a</hash>
+                    <filelocation>http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_Win32_2.48.0.zip</filelocation>
+                    <hash>185e84c2cec5de00be802a1cc3a472ed678c65b0</hash>
                     <hashtype>sha1</hashtype>
                 </bitrate>
             </version>
         </driver>
         <driver id="googlechrome">
-            <version id="2.14">
+            <version id="2.9">
                 <bitrate thirtytwobit="true" sixtyfourbit="true">
-                    <filelocation>http://chromedriver.storage.googleapis.com/2.14/chromedriver_win32.zip</filelocation>
-                    <hash>4fe4aaf625073c39c29da994d815ffcc2c314c40</hash>
+                    <filelocation>http://chromedriver.storage.googleapis.com/2.9/chromedriver_win32.zip</filelocation>
+                    <hash>75aef93477057b673e2e6c0e1fda913856d0432a</hash>
                     <hashtype>sha1</hashtype>
                 </bitrate>
             </version>
@@ -34,10 +34,10 @@
             </version>
         </driver>
         <driver id="phantomjs">
-            <version id="1.9.8">
+            <version id="2.0.0">
                 <bitrate thirtytwobit="true" sixtyfourbit="true">
-                    <filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-windows.zip</filelocation>
-                    <hash>4531bd64df101a689ac7ac7f3e11bb7e77af8eff</hash>
+                    <filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip</filelocation>
+                    <hash>ca0c753e5d8820a271dd7c2d6a9fad6ff86fb09f</hash>
                     <hashtype>sha1</hashtype>
                 </bitrate>
             </version>
