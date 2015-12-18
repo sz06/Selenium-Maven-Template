@@ -10,13 +10,16 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class GoogleExampleIT extends DriverFactory {
 
+    private static final Logger log = LogManager.getLogger("GoogleExampleIT");
+
     @Test
     public void googleCheeseExample() throws Exception {
+        log.info("Running: googleCheeseExample");
         // Create a new WebDriver instance
         // Notice that the remainder of the code relies on the interface,
         // not the implementation.
